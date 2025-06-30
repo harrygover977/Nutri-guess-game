@@ -1,0 +1,28 @@
+[
+    {
+    "name": "apple",
+    "clue1": {
+        "calories": "95 kcal",
+        "carbs": "25g",
+        "protein": "0.5g",
+        "fat": "0.3g"
+    },
+    "clue2": "High in fiber and vitamin C",
+    "clue3": "Belongs to the Fruit & Veg category",
+    "clue4": "Used in a game often played on Halloween and Bonfire Night",
+    "clue5": " Typically comes in red, green, or yellow varieties"
+},
+{
+    "name": "banana",
+    "clue1": {
+        "calories": "105 kcal",
+        "carbs": "27g",
+        "protein": "1.3g",
+        "fat": "0.3g"
+    },
+    "clue2": "Rich in potassium and vitamin B6",
+    "clue3": "Belongs to the Fruit & Veg category",
+    "clue4": "Often associated with monkeys and tropical climates",
+    "clue5": "Typically yellow when ripe"
+}
+]

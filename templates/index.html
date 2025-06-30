@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap" rel="stylesheet">
+
+    <title>Nutri-Guess</title>
+</head>
+<body>
+    <div class="topNav">
+        <h1 id="title">Nutri-Guess</h1>
+    </div>
+
+    <div class="container">
+    <div class="clueContainer">
+        <div class="clues" id="clue1">
+            {% if clue1 %}
+                <p id="calories">Calories: {{ clue1.calories }}</p>
+                <p id="protein">Protein: {{ clue1.protein }}</p>
+                <p id="carbs">Carbs: {{ clue1.carbs }}</p>
+                <p id="fat">Fat: {{ clue1.fat }}</p>
+            {% else %}
+                <p>🎉Correct!🎉</p>
+                <p>Come back tomorrow for a new food to guess!</p>
+            {% endif %}
+        </div>
+        <div class="clues" id="clue2">
+            {% if clue2 %}
+            <p>{{clue2}}</p>
+            {% endif %}
+        </div>
+        <div class="clues" id="clue3">
+            {% if clue3 %}
+            <p>{{clue3}}</p>
+            {% endif %}
+        </div>
+        <div class="clues" id="clue4">
+                 {% if clue4 %}
+            <p>{{clue4}}</p>
+            {% endif %}
+        </div>
+        <div class="clues" id="clue5">
+            {% if clue5 %}
+            <p>{{clue5}}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="guessContainer">
+        <form class="guessForm" id="guessForm" action="/guess" method="POST">
+        <input type="text" name="guess" id="guessInput" placeholder="Enter your guess here...">
+        <button type="submit" id="guessButton">Guess</button>
+        </form>
+    </div>
+
+    <div class="previousGuessesContainer">
+        <h2>Previous Guesses</h2>
+        <ul id="previousGuessesList">
+            {% for guess in guesses|reverse %}
+                <li>{{ guess }}</li>
+            {% endfor %}
+        </ul>
+</div>
+</body>
+</html>
