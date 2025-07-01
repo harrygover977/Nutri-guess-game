@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, session, flash
 from flask import redirect, url_for
 import json
 import random
@@ -33,35 +33,48 @@ def init_routes(app):
         # store state in session
         session['answer'] = food['name']
         session['clues'] = clues
-        session['attempts'] = 0
+        session['attempts'] = 1
         session['guesses'] = []
         
-        return render_template('index.html', clue1=clues[0], message="", guessed=False)
-    
+        return render_template('index.html', clues=[clues[0]], message="", guessed=False)
+
     @app.route('/guess', methods = ['GET', 'POST'])
     def make_guess():
         guess = request.form.get('guess').strip().lower() 
         answer = session.get('answer')
         clues = session.get('clues', [])
-        attempts = session.get('attempts', 0)
+        attempts = session.get('attempts', 1)
         guesses = session.get('guesses', [])
-        
-        if guess == answer:
-            return render_template('index.html', clue1="", message="Congratulations! You guessed it right!", guesses=guesses, guessed=True)
-        
-        attempts += 1
-        guesses.append(guess)
-        session['attempts'] = attempts
-        session['guesses'] = guesses
 
-        if attempts == 5:
-            return render_template('index.html', clue="", message=f"You are out the guesses. The answer was: {answer}", guesses=guesses, guessed=True)
-        elif attempts == 1:
-            return render_template('index.html', clue1=clues[0], clue2=clues[1], message="Try again!", guesses=guesses, guessed=False)
-        elif attempts == 2:
-            return render_template('index.html', clue1=clues[0], clue2=clues[1], clue3=clues[2], message="Try again!", guesses=guesses, guessed=False)
-        elif attempts == 3:
-            return render_template('index.html', clue1=clues[0], clue2=clues[1], clue3=clues[2], clue4=clues[3], message="Try again!", guesses=guesses, guessed=False)
-        else: 
-            return render_template('index.html', clue1=clues[0], clue2=clues[1], clue3=clues[2], clue4=clues[3], clue5=clues[4], message="Try again!", guesses=guesses, guessed=False)
+        if guess in guesses:
+            flash("You have already guessed that food. Try again!")
+            return render_template('index.html', clues=clues[:attempts], guesses=reversed(guesses), guessed=False)
+        
+        # Add guess to previous guesses list and increase attempts by 1 
+        guesses.append(guess)
+        session['guesses'] = guesses
+        attempts += 1
+        session['attempts'] = attempts
+        
+        # End the game if the guess is correct or if attempts exceed 5
+        if guess == answer:
+            return render_template('correct.html', answer=answer, attempts=attempts - 1)
+
+        if attempts >= 6:
+            return render_template('incorrect.html', answer=answer)
+        
+        return render_template('index.html', clues=clues[:attempts], message="", guessed=False, guesses=reversed(guesses))
     
+
+    @app.route('/correct', methods=['GET'])
+    def correct_guess():
+        answer = session.get('answer')
+        attempts = session.get('attempts')
+        return render_template('correct.html', answer=answer, attempts=attempts)
+    
+    @app.route('/incorrect', methods=['GET'])
+    def incorrect_guess():
+        answer = session.get('answer')
+        attempts = session.get('attempts')
+        
+        return render_template('incorrect.html', answer=answer, attempts=attempts)

@@ -17,37 +17,27 @@
 
     <div class="container">
     <div class="clueContainer">
-        <div class="clues" id="clue1">
-            {% if clue1 %}
-                <p id="calories">Calories: {{ clue1.calories }}</p>
-                <p id="protein">Protein: {{ clue1.protein }}</p>
-                <p id="carbs">Carbs: {{ clue1.carbs }}</p>
-                <p id="fat">Fat: {{ clue1.fat }}</p>
+        <div class="clues">
+        <div id="clue1">
+        {% if clues %}
+        <p id="calories">Calories: {{ clues[0].calories }}</p>
+        <p id="protein">Protein: {{ clues[0].protein }}</p>
+        <p id="fat">Fat: {{ clues[0].fat }}</p>
+        <p id="carbs">Carbs: {{ clues[0].carbs }}</p>
+        </div>
+        {% for clue in clues[1:] %}
+            {% if clue is mapping %}
+            <ul>
+                {% for key, value in clue.items() %}
+                   <p><li id="{{ key.title() }}">{{ value }}</li></p>
+                {% endfor %}
+            </ul>
             {% else %}
-                <p>🎉Correct!🎉</p>
-                <p>Come back tomorrow for a new food to guess!</p>
+            <p id="clue{{ loop.index + 1 }}">{{ clue }}</p>
             {% endif %}
+        {% endfor %}
         </div>
-        <div class="clues" id="clue2">
-            {% if clue2 %}
-            <p>{{clue2}}</p>
-            {% endif %}
-        </div>
-        <div class="clues" id="clue3">
-            {% if clue3 %}
-            <p>{{clue3}}</p>
-            {% endif %}
-        </div>
-        <div class="clues" id="clue4">
-                 {% if clue4 %}
-            <p>{{clue4}}</p>
-            {% endif %}
-        </div>
-        <div class="clues" id="clue5">
-            {% if clue5 %}
-            <p>{{clue5}}</p>
-            {% endif %}
-        </div>
+        {% endif %}
     </div>
 
     <div class="guessContainer">
@@ -60,10 +50,11 @@
     <div class="previousGuessesContainer">
         <h2>Previous Guesses</h2>
         <ul id="previousGuessesList">
-            {% for guess in guesses|reverse %}
+            {% for guess in guesses %}
                 <li>{{ guess }}</li>
             {% endfor %}
         </ul>
-</div>
+    </div>
+
 </body>
 </html>

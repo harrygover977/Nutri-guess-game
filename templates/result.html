@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+    {% block title %}<title></title>{% endblock %}
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Nutri-Guess</h1>
+        {% block content %}
+        {% endblock %}
+        <p>Come back tomorrow for a new food to guess</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% extends "result.html" %}
+{% block title %}
+<title>Correct</title>
+{% endblock %}
+
+{% block content %}
+<div class="resultContainer">
+    <h1>Congratulations!</h1>
+    <h4>The answer was:</h4>
+    <p>{{ answer }}</p> <!-- Replace with daily answer for deployment -->
+    <div class="attempts">
+        <p id="numAttempts">{{attempts}}</p> <!-- Replace with actual attempts -->
+        <p>Attempts</p>
+    </div>
+    </div>
+    {% endblock %}
