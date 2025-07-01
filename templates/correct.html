@@ -4,13 +4,29 @@
 {% endblock %}
 
 {% block content %}
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+    // Fire confetti when the page loads
+    window.onload = function() {
+      confetti({
+        particleCount: 300,
+        spread: 150,
+        origin: { y: 0.6 }
+      });
+    };
+  </script>
 <div class="resultContainer">
     <h1>Congratulations!</h1>
     <h4>The answer was:</h4>
-    <p>{{ answer }}</p> <!-- Replace with daily answer for deployment -->
+    <p>{{ answer }}</p>
     <div class="attempts">
-        <p id="numAttempts">{{attempts}}</p> <!-- Replace with actual attempts -->
+        <p id="numAttempts">{{attempts}}</p>
+        {% if attempts == 1 %}
+        <p>Attempt</p>
+        {% else %}
         <p>Attempts</p>
+        {% endif %}
     </div>
     </div>
     {% endblock %}
+
