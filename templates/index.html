@@ -16,6 +16,21 @@
     </div>
 
     <div class="container">
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="flash-messages">
+                    {% for message in messages %}
+                        <div class="flash-message">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+        
+
+        
     <div class="clueContainer">
         <div class="clues">
         <div id="clue1">

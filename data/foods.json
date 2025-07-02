@@ -1,28 +1,714 @@
 [
     {
-    "name": "apple",
-    "clue1": {
-        "calories": "95 kcal",
-        "carbs": "25g",
-        "protein": "0.5g",
-        "fat": "0.3g"
+        "name": "apple",
+        "clue1": { "calories": "95 kcal", "carbs": "25g", "protein": "0.5g", "fat": "0.3g" },
+        "clue2": "High in fiber and vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Typically comes in red, green, or yellow varieties",
+        "clue5": "Used in a game often played on Halloween and Bonfire Night"
     },
-    "clue2": "High in fiber and vitamin C",
-    "clue3": "Belongs to the Fruit & Veg category",
-    "clue4": "Used in a game often played on Halloween and Bonfire Night",
-    "clue5": " Typically comes in red, green, or yellow varieties"
-},
-{
-    "name": "banana",
-    "clue1": {
-        "calories": "105 kcal",
-        "carbs": "27g",
-        "protein": "1.3g",
-        "fat": "0.3g"
+    {
+        "name": "banana",
+        "clue1": { "calories": "105 kcal", "carbs": "27g", "protein": "1.3g", "fat": "0.3g" },
+        "clue2": "Rich in potassium and vitamin B6",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Typically comes in yellow with a soft inside",
+        "clue5": "Often associated with monkeys"
     },
-    "clue2": "Rich in potassium and vitamin B6",
-    "clue3": "Belongs to the Fruit & Veg category",
-    "clue4": "Often associated with monkeys and tropical climates",
-    "clue5": "Typically yellow when ripe"
-}
+    {
+        "name": "broccoli",
+        "clue1": { "calories": "55 kcal", "carbs": "11g", "protein": "3.7g", "fat": "0.6g" },
+        "clue2": "High in fiber, vitamin C, and folate",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Often steamed or roasted as a side dish",
+        "clue5": "Looks like a small green tree"
+    },
+    {
+        "name": "almonds",
+        "clue1": { "calories": "160 kcal", "carbs": "6g", "protein": "6g", "fat": "14g" },
+        "clue2": "Good source of healthy fats and vitamin E",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Typically oval-shaped and light brown",
+        "clue5": "Often used in trail mix and nut butters"
+    },
+    {
+        "name": "chicken breast",
+        "clue1": { "calories": "165 kcal", "carbs": "0g", "protein": "31g", "fat": "3.6g" },
+        "clue2": "Excellent source of lean protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Usually skinless and boneless in recipes",
+        "clue5": "Commonly grilled, baked, or pan-fried"
+    },
+    {
+        "name": "carrot",
+        "clue1": { "calories": "41 kcal", "carbs": "10g", "protein": "0.9g", "fat": "0.2g" },
+        "clue2": "Rich in beta-carotene and vitamin A",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Typically orange but also comes in purple and yellow",
+        "clue5": "Often associated with good eyesight"
+    },
+    {
+        "name": "salmon",
+        "clue1": { "calories": "206 kcal", "carbs": "0g", "protein": "22g", "fat": "13g" },
+        "clue2": "Excellent source of omega-3 fatty acids",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Typically pink or orange in color",
+        "clue5": "Popular in sushi and grilled dishes"
+    },
+    {
+        "name": "brown rice",
+        "clue1": { "calorsies": "215 kcal", "carbs": "45g", "protein": "5g", "fat": "1.8g" },
+        "clue2": "High in complex carbohydrates and fiber",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Common side fort curries and stir-fries",
+        "clue5": "Whole grain alternative to white rice"
+    },
+    {
+        "name": "oats",
+        "clue1": { "calories": "150 kcal", "carbs": "27g", "protein": "5g", "fat": "3g" },
+        "clue2": "Good source of fiber and complex carbs",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Often eaten for breakfast with milk or fruit",
+        "clue5": "Main ingredient in porridge and granola"
+    },
+    {
+        "name": "avocado",
+        "clue1": { "calories": "160 kcal", "carbs": "9g", "protein": "2g", "fat": "15g" },
+        "clue2": "High in healthy monounsaturated fats",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Has a creamy green interior with a large pit",
+        "clue5": "Main ingredient in guacamole"
+    },
+    {
+        "name": "sweet potato",
+        "clue1": { "calories": "103 kcal", "carbs": "24g", "protein": "2.3g", "fat": "0.2g" },
+        "clue2": "Rich in beta-carotene and vitamin A",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Usually orange inside, sometimes purple",
+        "clue5": "Popular during Thanksgiving meals"
+    },
+    {
+        "name": "egg",
+        "clue1": { "calories": "70 kcal", "carbs": "1g", "protein": "6g", "fat": "5g" },
+        "clue2": "Excellent source of complete protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Typically eaten for breakfast",
+        "clue5": "Often eaten scrambled, boiled, or poached"
+    },
+    {
+        "name": "spinach",
+        "clue1": { "calories": "23 kcal", "carbs": "3.6g", "protein": "2.9g", "fat": "0.4g" },
+        "clue2": "High in iron and vitamin K",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Dark leafy green vegetable",
+        "clue5": "Often used in salads and smoothies"
+    },
+    {
+        "name": "cheddar cheese",
+        "clue1": { "calories": "113 kcal", "carbs": "0.4g", "protein": "7g", "fat": "9g" },
+        "clue2": "Rich in calcium and saturated fat",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Hard cheese that can be orange or white",
+        "clue5": "Often found in sandwiches and burgers"
+    },
+    {
+        "name": "quinoa",
+        "clue1": { "calories": "222 kcal", "carbs": "39g", "protein": "8g", "fat": "3.6g" },
+        "clue2": "Gluten-free grain high in protein",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Tiny round grain with nutty flavor",
+        "clue5": "Popular in salads and bowls"
+    },
+    {
+        "name": "tofu",
+        "clue1": { "calories": "76 kcal", "carbs": "1.9g", "protein": "8g", "fat": "4.8g" },
+        "clue2": "Plant-based protein made from soy",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "White and spongy, absorbs flavors well",
+        "clue5": "Often used in vegan dishes"
+    },
+    {
+        "name": "peanut butter",
+        "clue1": { "calories": "190 kcal", "carbs": "7g", "protein": "8g", "fat": "16g" },
+        "clue2": "High in healthy fats and protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Thick, creamy or crunchy spread",
+        "clue5": "Common on toast or in sandwiches"
+    },
+    {
+        "name": "cucumber",
+        "clue1": { "calories": "16 kcal", "carbs": "4g", "protein": "0.7g", "fat": "0.1g" },
+        "clue2": "Hydrating vegetable with high water content",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Cool, crunchy, green-skinned vegetable",
+        "clue5": "Often sliced in salads or sandwiches"
+    },
+    {
+        "name": "blueberries",
+        "clue1": { "calories": "84 kcal", "carbs": "21g", "protein": "1.1g", "fat": "0.5g" },
+        "clue2": "High in antioxidants and vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small, round, and deep blue-purple",
+        "clue5": "Often used in muffins and smoothies"
+    },
+    {
+        "name": "lentils",
+        "clue1": { "calories": "230 kcal", "carbs": "40g", "protein": "18g", "fat": "0.8g" },
+        "clue2": "Excellent plant-based protein and fiber",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Small round legumes in various colors",
+        "clue5": "Used in soups, stews, and curries"
+    },
+    {
+        "name": "orange",
+        "clue1": { "calories": "62 kcal", "carbs": "15g", "protein": "1.2g", "fat": "0.2g" },
+        "clue2": "Rich in vitamin C and water",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Bright citrus fruit with thick peel",
+        "clue5": "Commonly juiced for breakfast"
+    },
+    {
+        "name": "milk",
+        "clue1": { "calories": "103 kcal", "carbs": "12g", "protein": "8g", "fat": "2.4g" },
+        "clue2": "Great source of calcium and protein",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "White liquid from cows or plants",
+        "clue5": "Common in cereals and coffee"
+    },
+    {
+        "name": "beef steak",
+        "clue1": { "calories": "271 kcal", "carbs": "0g", "protein": "25g", "fat": "19g" },
+        "clue2": "Rich in protein and iron",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Juicy cut of red meat",
+        "clue5": "Often grilled or pan-seared"
+    },
+    {
+        "name": "mushroom",
+        "clue1": { "calories": "22 kcal", "carbs": "3g", "protein": "3g", "fat": "0.3g" },
+        "clue2": "Low-calorie and rich in B vitamins",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Fungi with caps and stems",
+        "clue5": "Popular on pizzas and in stir-fries"
+    },
+    {
+        "name": "pumpkin",
+        "clue1": {"calories": "26 kcal", "carbs": "7g", "protein": "1g", "fat": "0.1g"},
+        "clue2": "High in beta-carotene and fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Used in pies, soups, and roasted dishes",
+        "clue5": "Bright orange and often carved for Halloween"
+    },
+    {
+        "name": "green beans",
+        "clue1": {"calories": "31 kcal", "carbs": "7g", "protein": "2g", "fat": "0.1g"},
+        "clue2": "Rich in vitamin K and fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Long and slender with a crunchy texture",
+        "clue5": "Often served as a side dish or in casseroles"
+    },
+    {
+        "name": "kiwi",
+        "clue1": {"calories": "42 kcal", "carbs": "10g", "protein": "0.8g", "fat": "0.4g"},
+        "clue2": "High in vitamin C and potassium",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small and brown on the outside, green and juicy inside",
+        "clue5": "Commonly eaten fresh or in fruit salads"
+    },
+    {
+        "name": "cabbage",
+        "clue1": {"calories": "22 kcal", "carbs": "5g", "protein": "1g", "fat": "0.1g"},
+        "clue2": "Good source of vitamin C and K",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Layered green or purple leafy vegetable",
+        "clue5": "Often used in coleslaw and stir-fries"
+    },
+    {
+        "name": "radish",
+        "clue1": {"calories": "16 kcal", "carbs": "3g", "protein": "0.7g", "fat": "0.1g"},
+        "clue2": "Peppery taste and high in antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small root vegetable often red with white inside",
+        "clue5": "Common in salads and crunchy snacks"
+    },
+    {
+        "name": "brussels sprouts",
+        "clue1": {"calories": "38 kcal", "carbs": "8g", "protein": "3g", "fat": "0.3g"},
+        "clue2": "High in fiber, vitamins C and K",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Miniature cabbages on a stalk",
+        "clue5": "Often roasted with balsamic vinegar"
+    },
+    {
+        "name": "nectarine",
+        "clue1": {"calories": "62 kcal", "carbs": "15g", "protein": "1.5g", "fat": "0.5g"},
+        "clue2": "Juicy stone fruit rich in vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Smooth skin, similar to a peach",
+        "clue5": "Great in desserts or eaten fresh"
+    },
+    {
+        "name": "mango",
+        "clue1": {"calories": "99 kcal", "carbs": "25g", "protein": "1.4g", "fat": "0.6g"},
+        "clue2": "Rich in vitamin A and antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Tropical fruit with juicy orange flesh",
+        "clue5": "Often used in smoothies, lassis, and salads"
+    },
+    {
+        "name": "courgette",
+        "clue1": {"calories": "17 kcal", "carbs": "3g", "protein": "1.2g", "fat": "0.3g"},
+        "clue2": "Low in calories and versatile",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Green squash with soft skin",
+        "clue5": "Commonly grilled, sautéed, or spiralized"
+    },
+    {
+        "name": "fig",
+        "clue1": {"calories": "74 kcal", "carbs": "19g", "protein": "0.8g", "fat": "0.3g"},
+        "clue2": "Sweet fruit rich in fiber and antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Soft and seedy interior with a chewy skin",
+        "clue5": "Often dried or eaten with cheese"
+    },
+    {
+        "name": "pomegranate",
+        "clue1": {"calories": "83 kcal", "carbs": "19g", "protein": "1.7g", "fat": "1.2g"},
+        "clue2": "High in antioxidants and vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Filled with red juicy seeds",
+        "clue5": "Eaten fresh or juiced for its health benefits"
+    },
+    {
+        "name": "turnip",
+        "clue1": {"calories": "28 kcal", "carbs": "6g", "protein": "0.9g", "fat": "0.1g"},
+        "clue2": "Root vegetable rich in vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Purple and white skin with white flesh",
+        "clue5": "Often boiled or mashed"
+    },
+    {
+        "name": "leek",
+        "clue1": {"calories": "61 kcal", "carbs": "14g", "protein": "1.5g", "fat": "0.3g"},
+        "clue2": "High in vitamin K and A",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Looks like a giant green onion",
+        "clue5": "Used in soups and stews"
+    },
+    {
+        "name": "apricot",
+        "clue1": {"calories": "48 kcal", "carbs": "11g", "protein": "1.4g", "fat": "0.4g"},
+        "clue2": "High in vitamin A and potassium",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small orange fruit with a stone",
+        "clue5": "Often eaten dried or in jams"
+    },
+    {
+        "name": "plum",
+        "clue1": {"calories": "46 kcal", "carbs": "11g", "protein": "0.7g", "fat": "0.3g"},
+        "clue2": "Good source of vitamin C and fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Juicy fruit with a dark skin and pit",
+        "clue5": "Used in crumbles, jams, and eaten fresh"
+    },
+    {
+        "name": "cranberry",
+        "clue1": {"calories": "46 kcal", "carbs": "12g", "protein": "0.4g", "fat": "0.1g"},
+        "clue2": "Rich in antioxidants and vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small red berries with a tart flavor",
+        "clue5": "Often made into sauces or juice"
+    },
+    {
+        "name": "barley",
+        "clue1": {"calories": "354 kcal", "carbs": "73g", "protein": "12g", "fat": "2.3g"},
+        "clue2": "Whole grain high in fiber",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Chewy grain with nutty flavor",
+        "clue5": "Used in soups and stews"
+    },
+    {
+        "name": "basil",
+        "clue1": {"calories": "22 kcal", "carbs": "2.7g", "protein": "3.2g", "fat": "0.6g"},
+        "clue2": "Fragrant herb rich in vitamin K",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Bright green leaves with a peppery taste",
+        "clue5": "Used in pesto and Italian dishes"
+    },
+    {
+        "name": "mint",
+        "clue1": {"calories": "70 kcal", "carbs": "15g", "protein": "3.8g", "fat": "0.9g"},
+        "clue2": "Cooling herb that aids digestion",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Green leafy herb with a refreshing scent",
+        "clue5": "Used in teas and desserts"
+    },
+    {
+        "name": "sardines",
+        "clue1": {"calories": "208 kcal", "carbs": "0g", "protein": "25g", "fat": "11g"},
+        "clue2": "High in calcium and omega-3s",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Small oily fish often canned",
+        "clue5": "Popular on toast or in salads"
+    },
+    {
+        "name": "pineapple",
+        "clue1": { "calories": "82 kcal", "carbs": "22g", "protein": "0.9g", "fat": "0.2g" },
+        "clue2": "Rich in vitamin C and bromelain enzyme",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Tropical fruit with spiky skin and sweet yellow flesh",
+        "clue5": "Often used in tropical drinks and pizzas"
+    },
+    {
+        "name": "edamame",
+        "clue1": { "calories": "121 kcal", "carbs": "10g", "protein": "11g", "fat": "5g" },
+        "clue2": "Young soybeans high in plant protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Green pods often steamed and salted",
+        "clue5": "Popular appetizer in Japanese cuisine"
+    },
+    {
+        "name": "cauliflower",
+        "clue1": { "calories": "25 kcal", "carbs": "5g", "protein": "2g", "fat": "0.3g" },
+        "clue2": "High in fiber and vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "White florets often used as a rice substitute",
+        "clue5": "Commonly roasted or steamed"
+    },
+    {
+        "name": "chickpeas",
+        "clue1": { "calories": "164 kcal", "carbs": "27g", "protein": "9g", "fat": "2.6g" },
+        "clue2": "High in fiber and plant-based protein",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Round beige legumes used in hummus",
+        "clue5": "Popular in Middle Eastern dishes"
+    },
+    {
+        "name": "turkey breast",
+        "clue1": { "calories": "135 kcal", "carbs": "0g", "protein": "30g", "fat": "1g" },
+        "clue2": "Lean source of animal protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Usually roasted or grilled for holiday meals",
+        "clue5": "Common in sandwiches and salads"
+    },
+    {
+        "name": "cherry tomatoes",
+        "clue1": { "calories": "18 kcal", "carbs": "4g", "protein": "0.9g", "fat": "0.2g" },
+        "clue2": "High in vitamin C and antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small, round, and red or yellow tomatoes",
+        "clue5": "Often used in salads and snacks"
+    },
+    {
+        "name": "edam cheese",
+        "clue1": { "calories": "357 kcal", "carbs": "1.4g", "protein": "25g", "fat": "27g" },
+        "clue2": "Semi-hard cheese rich in calcium",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Red wax-coated cheese from the Netherlands",
+        "clue5": "Sliced for sandwiches or cheese boards"
+    },
+    {
+        "name": "black beans",
+        "clue1": { "calories": "132 kcal", "carbs": "24g", "protein": "9g", "fat": "0.5g" },
+        "clue2": "Rich in fiber and plant protein",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Small black legumes often used in Latin cuisine",
+        "clue5": "Common in soups, stews, and burritos"
+    },
+    {
+        "name": "sweet corn",
+        "clue1": { "calories": "86 kcal", "carbs": "19g", "protein": "3.2g", "fat": "1.2g" },
+        "clue2": "Good source of fiber and vitamin B",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Yellow kernels on a cob, eaten boiled or grilled",
+        "clue5": "Popular at barbecues and fairs"
+    },
+    {
+        "name": "cottage cheese",
+        "clue1": { "calories": "98 kcal", "carbs": "3.4g", "protein": "11g", "fat": "4.3g" },
+        "clue2": "Low-fat dairy high in protein",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Soft, lumpy white cheese",
+        "clue5": "Often eaten with fruit or in salads"
+    },
+    {
+        "name": "aubergine",
+        "clue1": { "calories": "25 kcal", "carbs": "6g", "protein": "1g", "fat": "0.2g" },
+        "clue2": "Rich in fiber and antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Purple vegetable with spongy flesh",
+        "clue5": "Used in dishes like moussaka and ratatouille"
+    },
+    {
+        "name": "walnuts",
+        "clue1": { "calories": "185 kcal", "carbs": "4g", "protein": "4.3g", "fat": "18.5g" },
+        "clue2": "High in omega-3 fatty acids and antioxidants",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Brain-shaped nut with a hard shell",
+        "clue5": "Used in baking and salads"
+    },
+    {
+        "name": "mussels",
+        "clue1": { "calories": "86 kcal", "carbs": "3.7g", "protein": "12g", "fat": "2.2g" },
+        "clue2": "High in protein and low in fat",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Shellfish with blue-black shells",
+        "clue5": "Common in seafood stews and paella"
+    },
+    {
+        "name": "pistachios",
+        "clue1": { "calories": "159 kcal", "carbs": "8g", "protein": "6g", "fat": "13g" },
+        "clue2": "Rich in healthy fats and antioxidants",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Green nuts often eaten as a snack",
+        "clue5": "Commonly found in desserts and trail mixes"
+    },
+    {
+        "name": "honeydew melon",
+        "clue1": { "calories": "36 kcal", "carbs": "9g", "protein": "0.5g", "fat": "0.1g" },
+        "clue2": "Sweet melon high in vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Pale green flesh with smooth rind",
+        "clue5": "Often eaten fresh or in fruit salads"
+    },
+    {
+        "name": "artichoke",
+        "clue1": { "calories": "47 kcal", "carbs": "11g", "protein": "4g", "fat": "0.2g" },
+        "clue2": "High in fiber and antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Large green globe with edible leaves",
+        "clue5": "Often steamed and eaten with dips"
+    },
+    {
+        "name": "blackberries",
+        "clue1": { "calories": "43 kcal", "carbs": "10g", "protein": "1.4g", "fat": "0.5g" },
+        "clue2": "Rich in vitamin C and fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Dark purple berries with many drupelets",
+        "clue5": "Used in desserts, jams, and smoothies"
+    },
+    {
+        "name": "clover sprouts",
+        "clue1": { "calories": "32 kcal", "carbs": "6g", "protein": "3g", "fat": "0.5g" },
+        "clue2": "Rich in vitamins and minerals",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Tiny sprouts with delicate leaves",
+        "clue5": "Often added to salads and sandwiches"
+    },
+    {
+        "name": "raspberries",
+        "clue1": { "calories": "52 kcal", "carbs": "12g", "protein": "1.2g", "fat": "0.7g" },
+        "clue2": "High in fiber and vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Bright red, delicate and juicy berries",
+        "clue5": "Common in desserts and jams"
+    },
+    {
+        "name": "beets",
+        "clue1": { "calories": "43 kcal", "carbs": "10g", "protein": "1.6g", "fat": "0.2g" },
+        "clue2": "Rich in nitrates and antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Root vegetable with deep red or golden flesh",
+        "clue5": "Often roasted or juiced"
+    },
+    {
+        "name": "prawns",
+        "clue1": { "calories": "99 kcal", "carbs": "0.2g", "protein": "24g", "fat": "0.3g" },
+        "clue2": "Low-fat seafood rich in protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Small shellfish with a sweet taste",
+        "clue5": "Used in cocktails, stir-fries, and pasta"
+    },
+    {
+        "name": "bok choy",
+        "clue1": { "calories": "13 kcal", "carbs": "2.2g", "protein": "1.5g", "fat": "0.2g" },
+        "clue2": "Rich in vitamins A, C, and K",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Leafy green vegetable common in Asian cuisine",
+        "clue5": "Often stir-fried or added to soups"
+    },
+    {
+        "name": "feta cheese",
+        "clue1": { "calories": "264 kcal", "carbs": "4g", "protein": "14g", "fat": "21g" },
+        "clue2": "Salty cheese made from sheep's milk",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "White crumbly cheese",
+        "clue5": "Popular in Greek salads and Mediterranean dishes"
+    },
+    {
+        "name": "bratwurst",
+        "clue1": { "calories": "280 kcal", "carbs": "2g", "protein": "16g", "fat": "24g" },
+        "clue2": "German pork sausage rich in protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Usually grilled or pan-fried",
+        "clue5": "Common at barbecues and Oktoberfest"
+    },
+    {
+        "name": "kale",
+        "clue1": { "calories": "33 kcal", "carbs": "7g", "protein": "3g", "fat": "0.6g" },
+        "clue2": "Leafy green packed with vitamins A, C, and K",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Curly or flat dark green leaves",
+        "clue5": "Often used in salads, smoothies, and chips"
+    },
+    {
+        "name": "clams",
+        "clue1": { "calories": "74 kcal", "carbs": "3.6g", "protein": "12g", "fat": "1.6g" },
+        "clue2": "Good source of iron and protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Shellfish with hard, round shells",
+        "clue5": "Used in chowders and pasta dishes"
+    },
+    {
+        "name": "dates",
+        "clue1": { "calories": "282 kcal", "carbs": "75g", "protein": "2.5g", "fat": "0.4g" },
+        "clue2": "High in natural sugars and fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Sweet brown fruit often dried",
+        "clue5": "Common in Middle Eastern cuisine and snacks"
+    },
+    {
+        "name": "asparagus",
+        "clue1": { "calories": "20 kcal", "carbs": "4g", "protein": "2.2g", "fat": "0.1g" },
+        "clue2": "High in folate and vitamins A and K",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Long green stalks often grilled or steamed",
+        "clue5": "Popular spring vegetable"
+    },
+    {
+        "name": "cassava",
+        "clue1": { "calories": "160 kcal", "carbs": "38g", "protein": "1.4g", "fat": "0.3g" },
+        "clue2": "Starchy root vegetable high in carbohydrates",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "White flesh with rough brown skin",
+        "clue5": "Used to make tapioca and gluten-free flour"
+    },
+    {
+        "name": "chayote",
+        "clue1": { "calories": "19 kcal", "carbs": "4.5g", "protein": "0.8g", "fat": "0.1g" },
+        "clue2": "Mild-tasting, green, pear-shaped vegetable",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Often cooked in stews or eaten raw",
+        "clue5": "Popular in Latin American cuisine"
+    },
+    {
+        "name": "kohlrabi",
+        "clue1": { "calories": "27 kcal", "carbs": "6g", "protein": "2g", "fat": "0.1g" },
+        "clue2": "Crunchy vegetable with mild cabbage flavor",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Round bulb with leafy stems",
+        "clue5": "Eaten raw or cooked in soups and salads"
+    },
+    {
+        "name": "sunchoke",
+        "clue1": { "calories": "73 kcal", "carbs": "17g", "protein": "2g", "fat": "0.01g" },
+        "clue2": "Also called Jerusalem artichoke, high in inulin fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Knobbly tuber with a sweet, nutty flavor",
+        "clue5": "Used in roasting or soups"
+    },
+    {
+        "name": "wild rice",
+        "clue1": { "calories": "101 kcal", "carbs": "21g", "protein": "4g", "fat": "0.3g" },
+        "clue2": "Not actually rice but an aquatic grass seed",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Long, slender black grains",
+        "clue5": "Often mixed with other rice varieties or in salads"
+    },
+    {
+        "name": "jerusalem artichoke",
+        "clue1": { "calories": "73 kcal", "carbs": "17g", "protein": "2g", "fat": "0g" },
+        "clue2": "Tubular root vegetable rich in prebiotic fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Knobby, light brown skin with white flesh",
+        "clue5": "Also called sunchoke, used in soups and roasting"
+    },
+    {
+        "name": "plantain",
+        "clue1": { "calories": "122 kcal", "carbs": "31g", "protein": "1.3g", "fat": "0.4g" },
+        "clue2": "Starchy banana-like fruit often cooked before eating",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Long, thick-skinned, green or yellow fruit",
+        "clue5": "Common in Caribbean and African cuisines"
+    },
+    {
+        "name": "jicama",
+        "clue1": { "calories": "38 kcal", "carbs": "9g", "protein": "0.7g", "fat": "0.1g" },
+        "clue2": "Crunchy, sweet root vegetable",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Round, brown skin with white flesh",
+        "clue5": "Often eaten raw in salads or with chili powder"
+    },
+    {
+        "name": "mangosteen",
+        "clue1": { "calories": "73 kcal", "carbs": "18g", "protein": "0.4g", "fat": "0.6g" },
+        "clue2": "Tropical fruit with sweet and tangy flavor",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Purple rind with white segmented flesh",
+        "clue5": "Known as the 'queen of fruits'"
+    },
+    {
+        "name": "tamarind",
+        "clue1": { "calories": "239 kcal", "carbs": "62g", "protein": "2.8g", "fat": "0.6g" },
+        "clue2": "Tangy brown pulp often used as a souring agent",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Pods containing sticky pulp",
+        "clue5": "Used in sauces, candies, and drinks"
+    },
+    {
+        "name": "celeriac",
+        "clue1": { "calories": "42 kcal", "carbs": "9g", "protein": "1.5g", "fat": "0.3g" },
+        "clue2": "Root vegetable with celery flavor",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Knobby, rough, light brown exterior",
+        "clue5": "Often mashed or roasted"
+    },
+    {
+        "name": "tomato",
+        "clue1": { "calories": "18 kcal", "carbs": "3.9g", "protein": "0.9g", "fat": "0.2g" },
+        "clue2": "Rich in vitamin C and lycopene",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Red, round fruit often mistaken for a vegetable",
+        "clue5": "Common in salads, sauces, and soups"
+    },
+    {
+        "name": "onion",
+        "clue1": { "calories": "40 kcal", "carbs": "9g", "protein": "1.1g", "fat": "0.1g" },
+        "clue2": "Strong flavored bulb vegetable high in antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Often white, yellow, or red with layered rings",
+        "clue5": "Used widely in cooking for flavor bases"
+    },
+    {
+        "name": "potato",
+        "clue1": { "calories": "77 kcal", "carbs": "17g", "protein": "2g", "fat": "0.1g" },
+        "clue2": "Starchy root vegetable high in potassium",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Brown skin with white or yellow flesh",
+        "clue5": "Used for mashing, roasting, and frying"
+    },
+    {
+        "name": "lettuce",
+        "clue1": { "calories": "15 kcal", "carbs": "2.9g", "protein": "1.4g", "fat": "0.2g" },
+        "clue2": "Leafy green vegetable low in calories",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Crisp leaves used in salads and sandwiches",
+        "clue5": "Common in salads and wraps"
+    },
+    {
+        "name": "bell pepper",
+        "clue1": { "calories": "31 kcal", "carbs": "6g", "protein": "1g", "fat": "0.3g" },
+        "clue2": "Crunchy vegetable high in vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Comes in red, green, yellow, and orange colors",
+        "clue5": "Eaten raw, roasted, or stuffed"
+    },
+    {
+        "name": "green peas",
+        "clue1": { "calories": "81 kcal", "carbs": "14g", "protein": "5g", "fat": "0.4g" },
+        "clue2": "Small green legumes high in protein and fiber",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Often frozen or fresh in pods",
+        "clue5": "Used in soups, stews, and side dishes"
+    }
 ]
