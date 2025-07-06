@@ -1,8 +1,9 @@
 from flask import render_template, request, session, flash
-from flask import redirect, url_for
+from flask import redirect, url_for, make_response
 import json
 import random
 from datetime import date
+from functools import wraps
 
 with open("data/foods.json", "r") as file:
     foods = json.load(file)
@@ -19,8 +20,39 @@ def random_food():
     return random_meal
 
 
+def prevent_back_to_game(f):
+    """Decorator to prevent users from going back to the game after completion"""
+
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        today = date.today()
+        today_key = today.strftime("%Y-%m-%d")
+
+        # Check if user has completed today's game
+        if session.get("last_played_date") == today_key and session.get(
+            "game_completed", False
+        ):
+            # Redirect to appropriate result page
+            answer = session.get("answer")
+            attempts = session.get("attempts", 1)
+
+            if session.get("game_won", False):
+                return render_template(
+                    "correct.html", answer=answer, attempts=attempts - 1
+                )
+            else:
+                return render_template(
+                    "incorrect.html", answer=answer, attempts=attempts - 1
+                )
+
+        return f(*args, **kwargs)
+
+    return decorated_function
+
+
 def init_routes(app):
     @app.route("/", methods=["GET", "POST"])
+    @prevent_back_to_game
     def start_game():
         today = date.today()
         today_key = today.strftime("%Y-%m-%d")
@@ -86,6 +118,7 @@ def init_routes(app):
         )
 
     @app.route("/guess", methods=["GET", "POST"])
+    @prevent_back_to_game
     def make_guess():
         guess = request.form.get("guess").strip().lower()
         answer = session.get("answer")
@@ -156,7 +189,14 @@ def init_routes(app):
         # Mark game as completed and won
         session["game_completed"] = True
         session["game_won"] = True
-        return render_template("correct.html", answer=answer, attempts=attempts - 1)
+
+        response = make_response(
+            render_template("correct.html", answer=answer, attempts=attempts - 1)
+        )
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        response.headers["Pragma"] = "no-cache"
+        response.headers["Expires"] = "0"
+        return response
 
     @app.route("/incorrect", methods=["GET"])
     def incorrect_guess():
@@ -165,4 +205,11 @@ def init_routes(app):
         # Mark game as completed and lost
         session["game_completed"] = True
         session["game_won"] = False
-        return render_template("incorrect.html", answer=answer, attempts=attempts)
+
+        response = make_response(
+            render_template("incorrect.html", answer=answer, attempts=attempts)
+        )
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        response.headers["Pragma"] = "no-cache"
+        response.headers["Expires"] = "0"
+        return response
