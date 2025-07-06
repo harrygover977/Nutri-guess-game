@@ -7,26 +7,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
-    {% block title %}<title></title>{% endblock %}
-    <script>
-        // Prevent going back to the game page
-        window.history.pushState(null, null, window.location.href);
-        window.onpopstate = function () {
-            window.history.pushState(null, null, window.location.href);
-        };
-        
-        // Clear any existing history entries to the game page
-        if (window.history.length > 1) {
-            window.history.go(-(window.history.length - 1));
-        }
-        
-        // Disable back button functionality
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Backspace' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
-                e.preventDefault();
-            }
-        });
-    </script>
+    {% block title %}<title>Nutri-Guess</title>{% endblock %}
 </head>
 <body>
     <div class="container">

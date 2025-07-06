@@ -158,13 +158,7 @@ def init_routes(app):
         session["game_completed"] = True
         session["game_won"] = True
 
-        response = make_response(
-            render_template("correct.html", answer=answer, attempts=attempts - 1)
-        )
-        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-        response.headers["Pragma"] = "no-cache"
-        response.headers["Expires"] = "0"
-        return response
+        return render_template("correct.html", answer=answer, attempts=attempts - 1)
 
     @app.route("/incorrect", methods=["GET"])
     def incorrect_guess():
@@ -174,10 +168,4 @@ def init_routes(app):
         session["game_completed"] = True
         session["game_won"] = False
 
-        response = make_response(
-            render_template("incorrect.html", answer=answer, attempts=attempts)
-        )
-        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-        response.headers["Pragma"] = "no-cache"
-        response.headers["Expires"] = "0"
-        return response
+        render_template("incorrect.html", answer=answer, attempts=attempts)
