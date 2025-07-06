@@ -231,3 +231,225 @@ body{
 .guessContainer button:disabled:hover{
     background-color: #cccccc;
 }
+
+/* Responsive Design for All Screen Sizes */
+@media (max-width: 1200px) {
+    .clueContainer {
+        width: 60%;
+    }
+    
+    .previousGuessesContainer {
+        width: 60%;
+    }
+    
+    .flash-messages {
+        width: 60%;
+    }
+    
+    .daily-game-message {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 2rem;
+    }
+    
+    .clueContainer {
+        width: 90%;
+        height: auto;
+        min-height: 40vh;
+        margin-top: 3vh;
+    }
+    
+    .clues {
+        font-size: 1.2rem;
+    }
+    
+    #clue1 {
+        flex-direction: column;
+        gap: 1vh;
+    }
+    
+    .guessForm {
+        margin-top: 5vh;
+        width: 90%;
+    }
+    
+    .guessContainer input {
+        font-size: 1.2rem;
+        padding: 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .guessContainer button {
+        font-size: 1.2rem;
+        padding: 12px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .previousGuessesContainer {
+        width: 90%;
+        margin-top: 3vh;
+    }
+    
+    .previousGuessesContainer h2 {
+        font-size: 1.5rem;
+    }
+    
+    #previousGuessesList li {
+        font-size: 1rem;
+        padding: 10px 12px;
+    }
+    
+    .flash-messages {
+        width: 90%;
+    }
+    
+    .flash-message {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+    
+    .daily-game-message {
+        width: 90%;
+    }
+    
+    .daily-game-message p {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    #title {
+        font-size: 1.8rem;
+    }
+    
+    .clueContainer {
+        width: 95%;
+        margin-top: 2vh;
+        min-height: 35vh;
+        padding: 15px;
+    }
+    
+    .clues {
+        font-size: 1rem;
+    }
+    
+    .guessForm {
+        margin-top: 3vh;
+        width: 95%;
+    }
+    
+    .guessContainer input {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    
+    .guessContainer button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    
+    .previousGuessesContainer {
+        width: 95%;
+        margin-top: 2vh;
+        padding: 15px;
+    }
+    
+    .previousGuessesContainer h2 {
+        font-size: 1.3rem;
+    }
+    
+    #previousGuessesList li {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+    
+    .flash-messages {
+        width: 95%;
+    }
+    
+    .flash-message {
+        font-size: 0.9rem;
+        padding: 10px 12px;
+    }
+    
+    .daily-game-message {
+        width: 95%;
+    }
+    
+    .daily-game-message p {
+        font-size: 0.9rem;
+        padding: 10px 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    #title {
+        font-size: 1.5rem;
+    }
+    
+    .clueContainer {
+        width: 98%;
+        padding: 10px;
+    }
+    
+    .clues {
+        font-size: 0.9rem;
+    }
+    
+    .guessForm {
+        width: 98%;
+    }
+    
+    .guessContainer input {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    
+    .guessContainer button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    
+    .previousGuessesContainer {
+        width: 98%;
+        padding: 10px;
+    }
+    
+    .previousGuessesContainer h2 {
+        font-size: 1.1rem;
+    }
+    
+    #previousGuessesList li {
+        font-size: 0.8rem;
+        padding: 6px 8px;
+    }
+    
+    .flash-messages {
+        width: 98%;
+    }
+    
+    .flash-message {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
+    
+    .daily-game-message {
+        width: 98%;
+    }
+    
+    .daily-game-message p {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
+}
