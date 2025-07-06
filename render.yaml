@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nutri-guess-game
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn run:app"
