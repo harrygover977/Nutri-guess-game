@@ -118,7 +118,6 @@ def init_routes(app):
         )
 
     @app.route("/guess", methods=["GET", "POST"])
-    @prevent_back_to_game
     def make_guess():
         guess = request.form.get("guess").strip().lower()
         answer = session.get("answer")
@@ -189,6 +188,8 @@ def init_routes(app):
         # Mark game as completed and won
         session["game_completed"] = True
         session["game_won"] = True
+        # Force session to be saved
+        session.modified = True
 
         response = make_response(
             render_template("correct.html", answer=answer, attempts=attempts - 1)
@@ -205,6 +206,8 @@ def init_routes(app):
         # Mark game as completed and lost
         session["game_completed"] = True
         session["game_won"] = False
+        # Force session to be saved
+        session.modified = True
 
         response = make_response(
             render_template("incorrect.html", answer=answer, attempts=attempts)
