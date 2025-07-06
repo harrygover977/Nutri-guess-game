@@ -1,9 +1,9 @@
 from flask import render_template, request, session, flash
-from flask import redirect, url_for, make_response
+from flask import redirect, url_for
 import json
 import random
 from datetime import date
-from functools import wraps
+
 
 with open("data/foods.json", "r") as file:
     foods = json.load(file)
@@ -169,3 +169,8 @@ def init_routes(app):
         session["game_won"] = False
 
         render_template("incorrect.html", answer=answer, attempts=attempts)
+
+    @app.route("/reset")
+    def reset():
+        session.clear()
+        return redirect(url_for("start_game"))
