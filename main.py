@@ -4,7 +4,7 @@ import os
 
 def create_app():
     app = Flask(__name__)
-    app.secret_key = os.getenv("SECRET_KEY")
+    app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 
     from routes import init_routes
 
