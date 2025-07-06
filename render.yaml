@@ -3,4 +3,4 @@ services:
     name: nutri-guess-game
     runtime: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn run:app"
+    startCommand: "gunicorn main:create_app()"
