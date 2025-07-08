@@ -104,7 +104,7 @@
         "clue5": "Often used in salads and smoothies"
     },
     {
-        "name": "cheddar cheese",
+        "name": "cheddar",
         "clue1": { "calories": "113 kcal", "carbs": "0.4g", "protein": "7g", "fat": "9g" },
         "clue2": "Rich in calcium and saturated fat",
         "clue3": "Belongs to the Dairy category",
@@ -176,7 +176,7 @@
         "clue5": "Common in cereals and coffee"
     },
     {
-        "name": "beef steak",
+        "name": "steak",
         "clue1": { "calories": "271 kcal", "carbs": "0g", "protein": "25g", "fat": "19g" },
         "clue2": "Rich in protein and iron",
         "clue3": "Belongs to the Protein & Nuts category",
@@ -392,15 +392,15 @@
         "clue5": "Common in sandwiches and salads"
     },
     {
-        "name": "cherry tomatoes",
+        "name": "tomatoes",
         "clue1": { "calories": "18 kcal", "carbs": "4g", "protein": "0.9g", "fat": "0.2g" },
         "clue2": "High in vitamin C and antioxidants",
         "clue3": "Belongs to the Fruit & Veg category",
-        "clue4": "Small, round, and red or yellow tomatoes",
+        "clue4": "Small, round, and red or yellow",
         "clue5": "Often used in salads and snacks"
     },
     {
-        "name": "edam cheese",
+        "name": "edam",
         "clue1": { "calories": "357 kcal", "carbs": "1.4g", "protein": "25g", "fat": "27g" },
         "clue2": "Semi-hard cheese rich in calcium",
         "clue3": "Belongs to the Dairy category",
@@ -464,7 +464,7 @@
         "clue5": "Commonly found in desserts and trail mixes"
     },
     {
-        "name": "honeydew melon",
+        "name": "honeydew",
         "clue1": { "calories": "36 kcal", "carbs": "9g", "protein": "0.5g", "fat": "0.1g" },
         "clue2": "Sweet melon high in vitamin C",
         "clue3": "Belongs to the Fruit & Veg category",
@@ -504,7 +504,7 @@
         "clue5": "Common in desserts and jams"
     },
     {
-        "name": "beets",
+        "name": "beetroot",
         "clue1": { "calories": "43 kcal", "carbs": "10g", "protein": "1.6g", "fat": "0.2g" },
         "clue2": "Rich in nitrates and antioxidants",
         "clue3": "Belongs to the Fruit & Veg category",
@@ -528,7 +528,7 @@
         "clue5": "Often stir-fried or added to soups"
     },
     {
-        "name": "feta cheese",
+        "name": "feta",
         "clue1": { "calories": "264 kcal", "carbs": "4g", "protein": "14g", "fat": "21g" },
         "clue2": "Salty cheese made from sheep's milk",
         "clue3": "Belongs to the Dairy category",
@@ -664,14 +664,6 @@
         "clue5": "Often mashed or roasted"
     },
     {
-        "name": "tomato",
-        "clue1": { "calories": "18 kcal", "carbs": "3.9g", "protein": "0.9g", "fat": "0.2g" },
-        "clue2": "Rich in vitamin C and lycopene",
-        "clue3": "Belongs to the Fruit & Veg category",
-        "clue4": "Red, round fruit often mistaken for a vegetable",
-        "clue5": "Common in salads, sauces, and soups"
-    },
-    {
         "name": "onion",
         "clue1": { "calories": "40 kcal", "carbs": "9g", "protein": "1.1g", "fat": "0.1g" },
         "clue2": "Strong flavored bulb vegetable high in antioxidants",
@@ -696,7 +688,7 @@
         "clue5": "Common in salads and wraps"
     },
     {
-        "name": "bell pepper",
+        "name": "pepper",
         "clue1": { "calories": "31 kcal", "carbs": "6g", "protein": "1g", "fat": "0.3g" },
         "clue2": "Crunchy vegetable high in vitamin C",
         "clue3": "Belongs to the Fruit & Veg category",
@@ -704,11 +696,723 @@
         "clue5": "Eaten raw, roasted, or stuffed"
     },
     {
-        "name": "green peas",
+        "name": "peas",
         "clue1": { "calories": "81 kcal", "carbs": "14g", "protein": "5g", "fat": "0.4g" },
         "clue2": "Small green legumes high in protein and fiber",
         "clue3": "Belongs to the Fruit & Veg category",
         "clue4": "Often frozen or fresh in pods",
         "clue5": "Used in soups, stews, and side dishes"
+    },
+    {
+        "name": "grape",
+        "clue1": { "calories": "69 kcal", "carbs": "18g", "protein": "0.7g", "fat": "0.2g" },
+        "clue2": "High in antioxidants and natural sugars",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small, round fruit that comes in red, green, or purple",
+        "clue5": "Often eaten fresh or used to make wine"
+    },
+    {
+        "name": "pear",
+        "clue1": { "calories": "57 kcal", "carbs": "15g", "protein": "0.4g", "fat": "0.1g" },
+        "clue2": "Good source of fiber and vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Sweet fruit with a rounded bottom and narrow top",
+        "clue5": "Often eaten raw or poached"
+    },
+    {
+        "name": "peach",
+        "clue1": { "calories": "58 kcal", "carbs": "14g", "protein": "1.4g", "fat": "0.4g" },
+        "clue2": "Juicy stone fruit rich in vitamin C and A",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Fuzzy skin with sweet yellow or white flesh",
+        "clue5": "Popular in desserts, jams, and eaten fresh"
+    },
+    {
+        "name": "strawberry",
+        "clue1": { "calories": "32 kcal", "carbs": "7.7g", "protein": "0.7g", "fat": "0.3g" },
+        "clue2": "Rich in vitamin C and antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Red, heart-shaped fruit with small seeds on the surface",
+        "clue5": "Common in desserts, smoothies, and salads"
+    },
+    {
+        "name": "watermelon",
+        "clue1": { "calories": "30 kcal", "carbs": "8g", "protein": "0.6g", "fat": "0.2g" },
+        "clue2": "Hydrating fruit high in vitamin C",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Large fruit with green rind and juicy red interior",
+        "clue5": "Often eaten in summer or blended into drinks"
+    },
+    {
+        "name": "cantaloupe",
+        "clue1": { "calories": "34 kcal", "carbs": "8g", "protein": "0.8g", "fat": "0.2g" },
+        "clue2": "Rich in vitamin A and water content",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Round melon with orange flesh and netted skin",
+        "clue5": "Often served in fruit salads or as a snack"
+    },
+    {
+        "name": "papaya",
+        "clue1": { "calories": "43 kcal", "carbs": "11g", "protein": "0.5g", "fat": "0.3g" },
+        "clue2": "Tropical fruit rich in vitamin C and digestive enzymes",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Orange flesh with black seeds in the center",
+        "clue5": "Often eaten raw or in tropical salads"
+    },
+    {
+        "name": "cherry",
+        "clue1": { "calories": "50 kcal", "carbs": "12g", "protein": "1g", "fat": "0.3g" },
+        "clue2": "Sweet or tart stone fruit high in antioxidants",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Small round fruit with red or dark purple skin",
+        "clue5": "Popular in pies, jams, and snacking"
+    },
+    {
+        "name": "garlic",
+        "clue1": { "calories": "149 kcal", "carbs": "33g", "protein": "6.4g", "fat": "0.5g" },
+        "clue2": "Rich in sulfur compounds and immune-boosting properties",
+        "clue3": "Belongs to the Fruit & Veg category",
+        "clue4": "Bulb made up of cloves with a pungent aroma",
+        "clue5": "Used widely to flavor savory dishes"
+    },
+    {
+        "name": "rice",
+        "clue1": { "calories": "130 kcal", "carbs": "28g", "protein": "2.7g", "fat": "0.3g" },
+        "clue2": "Staple grain food high in carbohydrates",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Typically white or brown and served as a side dish",
+        "clue5": "Used in dishes like curry, stir-fry, and sushi"
+    },
+    {
+        "name": "wheat",
+        "clue1": { "calories": "340 kcal", "carbs": "72g", "protein": "13g", "fat": "2.5g" },
+        "clue2": "Common cereal grain used to make flour",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Golden grain with a nutty flavor when whole",
+        "clue5": "Base ingredient for bread, pasta, and many baked goods"
+    },
+    {
+        "name": "bulgur",
+        "clue1": { "calories": "83 kcal", "carbs": "18g", "protein": "3g", "fat": "0.2g" },
+        "clue2": "Quick-cooking whole grain made from cracked wheat",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Light and fluffy when cooked",
+        "clue5": "Used in dishes like tabbouleh and pilafs"
+    },
+    {
+        "name": "millet",
+        "clue1": { "calories": "119 kcal", "carbs": "23g", "protein": "3.5g", "fat": "1g" },
+        "clue2": "Gluten-free ancient grain rich in magnesium",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Tiny, round, yellow grains",
+        "clue5": "Used in porridges, salads, and breads"
+    },
+    {
+        "name": "cornmeal",
+        "clue1": { "calories": "370 kcal", "carbs": "79g", "protein": "8g", "fat": "3.5g" },
+        "clue2": "Ground dried corn used in baking and cooking",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Yellow or white coarse flour",
+        "clue5": "Used to make cornbread, polenta, and tortillas"
+    },
+    {
+        "name": "couscous",
+        "clue1": { "calories": "112 kcal", "carbs": "23g", "protein": "3.8g", "fat": "0.2g" },
+        "clue2": "Small pasta-like grain made from wheat",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Light and fluffy when steamed",
+        "clue5": "Popular in North African cuisine"
+    },
+    {
+        "name": "bread",
+        "clue1": { "calories": "79 kcal", "carbs": "15g", "protein": "3g", "fat": "1g" },
+        "clue2": "Staple food made from flour and water",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Comes in loaves, rolls, and slices",
+        "clue5": "Used in sandwiches and toast"
+    },
+    {
+        "name": "pasta",
+        "clue1": { "calories": "131 kcal", "carbs": "25g", "protein": "5g", "fat": "1.1g" },
+        "clue2": "Wheat-based staple food, often served with sauce",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Comes in many shapes like spaghetti and penne",
+        "clue5": "Common in Italian cuisine"
+    },
+    {
+        "name": "tortilla",
+        "clue1": { "calories": "140 kcal", "carbs": "24g", "protein": "4g", "fat": "3g" },
+        "clue2": "Thin, round flatbread made from corn or wheat",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Flexible and foldable, often used in wraps",
+        "clue5": "Key component in tacos and burritos"
+    },
+    {
+        "name": "bagel",
+        "clue1": { "calories": "245 kcal", "carbs": "47g", "protein": "9g", "fat": "1.5g" },
+        "clue2": "Dense, chewy bread roll with a hole in the center",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Often topped with seeds like sesame or poppy",
+        "clue5": "Commonly eaten toasted with cream cheese"
+    },
+    {
+        "name": "muffin",
+        "clue1": { "calories": "340 kcal", "carbs": "50g", "protein": "5g", "fat": "14g" },
+        "clue2": "Small baked treat, sweet or savory",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Often comes in a cup shape with a domed top",
+        "clue5": "Popular for breakfast or snacks"
+    },
+    {
+        "name": "crackers",
+        "clue1": { "calories": "120 kcal", "carbs": "20g", "protein": "2g", "fat": "4g" },
+        "clue2": "Thin, crispy baked snack",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Typically square or round and lightly salted",
+        "clue5": "Often eaten with cheese or dips"
+    },
+    {
+        "name": "noodles",
+        "clue1": { "calories": "138 kcal", "carbs": "25g", "protein": "5g", "fat": "2g" },
+        "clue2": "Long, thin strips made from wheat or rice flour",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Used in Asian dishes like ramen and stir-fry",
+        "clue5": "Boiled and served with sauces or broth"
+    },
+    {
+        "name": "granola",
+        "clue1": { "calories": "200 kcal", "carbs": "35g", "protein": "4g", "fat": "6g" },
+        "clue2": "Baked mixture of oats, nuts, and sweeteners",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Crunchy and often used as a topping",
+        "clue5": "Eaten with yogurt or as a snack"
+    },
+    {
+        "name": "cereal",
+        "clue1": { "calories": "120 kcal", "carbs": "24g", "protein": "2g", "fat": "1g" },
+        "clue2": "Processed grain often eaten for breakfast",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Comes in flakes, puffs, or loops",
+        "clue5": "Usually served with milk"
+    },
+    {
+        "name": "rye bread",
+        "clue1": { "calories": "83 kcal", "carbs": "15g", "protein": "2.7g", "fat": "1.1g" },
+        "clue2": "Dense bread made from rye flour",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Darker and earthier than wheat bread",
+        "clue5": "Popular in Eastern European sandwiches"
+    },
+    {
+        "name": "ground beef",
+        "clue1": { "calories": "250 kcal", "carbs": "0g", "protein": "26g", "fat": "17g" },
+        "clue2": "Ground meat commonly used in burgers and tacos",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Made from beef, finely chopped or ground",
+        "clue5": "Versatile and often cooked in sauces or patties"
+    },
+    {
+        "name": "pork chop",
+        "clue1": { "calories": "231 kcal", "carbs": "0g", "protein": "22g", "fat": "16g" },
+        "clue2": "Tender cut from the pig's loin",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Typically grilled, baked, or pan-fried",
+        "clue5": "Often served with applesauce or in stir-fries"
+    },
+    {
+        "name": "bacon",
+        "clue1": { "calories": "42 kcal", "carbs": "0g", "protein": "3g", "fat": "3g" },
+        "clue2": "Crispy, salty meat from the belly of a pig",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Usually pan-fried or baked until crispy",
+        "clue5": "Popular in breakfast dishes, sandwiches, and salads"
+    },
+    {
+        "name": "ham",
+        "clue1": { "calories": "145 kcal", "carbs": "1g", "protein": "20g", "fat": "7g" },
+        "clue2": "Cured or smoked meat from the pig's hind leg",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Available as slices, whole roasts, or steaks",
+        "clue5": "Often served in sandwiches, breakfast dishes, or as a main dish"
+    },
+    {
+        "name": "tuna",
+        "clue1": { "calories": "132 kcal", "carbs": "0g", "protein": "28g", "fat": "1g" },
+        "clue2": "Lean, high-protein fish",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Often sold canned, grilled, or raw in sushi",
+        "clue5": "Popular in salads, sandwiches, and poke bowls"
+    },
+    {
+        "name": "trout",
+        "clue1": { "calories": "148 kcal", "carbs": "0g", "protein": "20g", "fat": "8g" },
+        "clue2": "Freshwater fish rich in omega-3 fatty acids",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Typically grilled, pan-fried, or baked",
+        "clue5": "Often served with lemon, herbs, or in stews"
+    },
+    {
+        "name": "shrimp",
+        "clue1": { "calories": "85 kcal", "carbs": "0g", "protein": "18g", "fat": "1g" },
+        "clue2": "Small shellfish known for its tender texture",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Often grilled, sautéed, or used in seafood boils",
+        "clue5": "Popular in shrimp cocktails, pasta dishes, and stir-fries"
+    },
+    {
+        "name": "crab",
+        "clue1": { "calories": "97 kcal", "carbs": "0g", "protein": "21g", "fat": "1g" },
+        "clue2": "Sweet, tender meat from crustaceans",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Often served in cakes, soups, or as a main dish",
+        "clue5": "Popular in seafood boils, sushi, and salads"
+    },
+    {
+        "name": "lobster",
+        "clue1": { "calories": "90 kcal", "carbs": "0g", "protein": "19g", "fat": "1g" },
+        "clue2": "Luxurious shellfish known for its sweet meat",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Typically boiled or steamed and served with butter",
+        "clue5": "Popular in upscale seafood dishes and festivals"
+    },
+    {
+        "name": "tempeh",
+        "clue1": { "calories": "195 kcal", "carbs": "9g", "protein": "19g", "fat": "11g" },
+        "clue2": "Fermented soy product rich in plant-based protein",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Firm and nutty with a chewy texture",
+        "clue5": "Often used in vegan stir-fries and sandwiches"
+    },
+    {
+        "name": "kidney beans",
+        "clue1": { "calories": "127 kcal", "carbs": "22g", "protein": "9g", "fat": "0.5g" },
+        "clue2": "Legume high in fiber and protein",
+        "clue3": "Belongs to the Grains category",
+        "clue4": "Dark red beans shaped like kidneys",
+        "clue5": "Common in chili and stews"
+    },
+    {
+        "name": "butter",
+        "clue1": { "calories": "102 kcal", "carbs": "0g", "protein": "0.1g", "fat": "12g" },
+        "clue2": "High-fat dairy product made from cream",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Solid at room temperature, melts when heated",
+        "clue5": "Used in cooking, baking, and spreading"
+    },
+    {
+        "name": "cream",
+        "clue1": { "calories": "52 kcal", "carbs": "0.4g", "protein": "0.3g", "fat": "5.5g" },
+        "clue2": "Thick dairy product skimmed from milk",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Used in sauces, soups, and desserts",
+        "clue5": "Adds richness to both sweet and savory dishes"
+    },
+    {
+        "name": "ice cream",
+        "clue1": { "calories": "137 kcal", "carbs": "16g", "protein": "2.3g", "fat": "7.3g" },
+        "clue2": "Frozen dessert made from cream and sugar",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Creamy, sweet, and comes in many flavors",
+        "clue5": "Often eaten in cones or bowls"
+    },
+    {
+        "name": "sour cream",
+        "clue1": { "calories": "57 kcal", "carbs": "1.3g", "protein": "0.7g", "fat": "5.6g" },
+        "clue2": "Tangy dairy product made by fermenting cream",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "White and thick with a tart flavor",
+        "clue5": "Common in dips, baked potatoes, and Tex-Mex dishes"
+    },
+    {
+        "name": "cream cheese",
+        "clue1": { "calories": "99 kcal", "carbs": "1g", "protein": "2g", "fat": "10g" },
+        "clue2": "Soft, spreadable cheese made from milk and cream",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Rich and smooth, often used on bagels",
+        "clue5": "Also used in cheesecakes and dips"
+    },
+    {
+        "name": "mozzarella",
+        "clue1": { "calories": "85 kcal", "carbs": "1g", "protein": "6g", "fat": "6g" },
+        "clue2": "Mild-flavored cheese often used melted",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "White, soft, and stringy when melted",
+        "clue5": "Famous for topping pizzas"
+    },
+    {
+        "name": "parmesan",
+        "clue1": { "calories": "111 kcal", "carbs": "1g", "protein": "10g", "fat": "7g" },
+        "clue2": "Aged hard cheese with a sharp flavor",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Grated or shaved on pasta and salads",
+        "clue5": "Popular in Italian cuisine"
+    },
+    {
+        "name": "goat cheese",
+        "clue1": { "calories": "75 kcal", "carbs": "0g", "protein": "5g", "fat": "6g" },
+        "clue2": "Tangy, soft cheese made from goat's milk",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Creamy with a distinct flavor",
+        "clue5": "Used in salads, spreads, and baking"
+    },
+    {
+        "name": "ricotta",
+        "clue1": { "calories": "174 kcal", "carbs": "3g", "protein": "14g", "fat": "13g" },
+        "clue2": "Creamy cheese made from whey",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Mild, grainy texture",
+        "clue5": "Common in lasagna and desserts like cannoli"
+    },
+    {
+        "name": "condensed milk",
+        "clue1": { "calories": "321 kcal", "carbs": "54g", "protein": "8g", "fat": "8g" },
+        "clue2": "Sweetened, thick milk used in desserts",
+        "clue3": "Belongs to the Dairy category",
+        "clue4": "Sticky, syrup-like with a caramel flavor",
+        "clue5": "Used in baking, fudge, and sweet drinks"
+    },
+    {
+        "name": "cashews",
+        "clue1": { "calories": "157 kcal", "carbs": "9g", "protein": "5g", "fat": "12g" },
+        "clue2": "Rich in magnesium and healthy fats",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Creamy and crescent-shaped nut",
+        "clue5": "Commonly eaten as a snack or in stir-fries"
+    },
+    {
+        "name": "pecans",
+        "clue1": { "calories": "196 kcal", "carbs": "4g", "protein": "3g", "fat": "20g" },
+        "clue2": "High in antioxidants and monounsaturated fats",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Wrinkled, buttery nut with a rich flavor",
+        "clue5": "Often used in pies and desserts"
+    },
+    {
+        "name": "peanuts",
+        "clue1": { "calories": "161 kcal", "carbs": "4.6g", "protein": "7g", "fat": "14g" },
+        "clue2": "Technically a legume, but nutritionally a nut",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Crunchy and popular in butter or roasted form",
+        "clue5": "Often eaten as snacks or in Asian dishes"
+    },
+    {
+        "name": "sunflower seeds",
+        "clue1": { "calories": "164 kcal", "carbs": "6g", "protein": "6g", "fat": "14g" },
+        "clue2": "Rich in vitamin E and selenium",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Small, oval seeds with a mild nutty flavor",
+        "clue5": "Often eaten roasted or sprinkled on salads"
+    },
+    {
+        "name": "chia seeds",
+        "clue1": { "calories": "137 kcal", "carbs": "12g", "protein": "4g", "fat": "9g" },
+        "clue2": "Excellent source of omega-3s and fiber",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Tiny black or white seeds that absorb liquid",
+        "clue5": "Used in puddings, smoothies, and baking"
+    },
+    {
+        "name": "flaxseeds",
+        "clue1": { "calories": "150 kcal", "carbs": "8g", "protein": "5g", "fat": "12g" },
+        "clue2": "High in omega-3s and lignans",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Small, shiny brown or golden seeds",
+        "clue5": "Commonly ground and added to smoothies or oats"
+    },
+    {
+        "name": "hemp seeds",
+        "clue1": { "calories": "166 kcal", "carbs": "2.6g", "protein": "9.5g", "fat": "15g" },
+        "clue2": "Complete protein source from hemp plant",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Soft, nutty seeds with a mild taste",
+        "clue5": "Sprinkled on yogurt, salads, or in smoothies"
+    },
+    {
+        "name": "pumpkin seeds",
+        "clue1": { "calories": "151 kcal", "carbs": "5g", "protein": "7g", "fat": "13g" },
+        "clue2": "High in magnesium and zinc",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Also known as pepitas, flat and green",
+        "clue5": "Often roasted and eaten as a snack"
+    },
+    {
+        "name": "brazil nuts",
+        "clue1": { "calories": "187 kcal", "carbs": "3g", "protein": "4g", "fat": "19g" },
+        "clue2": "Extremely high in selenium",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Large, buttery nuts with a smooth texture",
+        "clue5": "Just 1–2 provide a full day's selenium"
+    },
+    {
+        "name": "macadamia nuts",
+        "clue1": { "calories": "204 kcal", "carbs": "4g", "protein": "2g", "fat": "21g" },
+        "clue2": "Very high in monounsaturated fats",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Round, creamy nuts with a crunchy bite",
+        "clue5": "Often used in cookies and white chocolate pairings"
+    },
+    {
+        "name": "hazelnuts",
+        "clue1": { "calories": "178 kcal", "carbs": "5g", "protein": "4g", "fat": "17g" },
+        "clue2": "Great source of vitamin E and healthy fats",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Small, round nuts with a sweet flavor",
+        "clue5": "Often found in chocolate spreads and pralines"
+    },
+    {
+        "name": "sesame seeds",
+        "clue1": { "calories": "160 kcal", "carbs": "7g", "protein": "5g", "fat": "14g" },
+        "clue2": "Rich in calcium and healthy fats",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Tiny flat seeds, white or black",
+        "clue5": "Used in baking, stir-fries, and tahini"
+    },
+    {
+        "name": "pine nuts",
+        "clue1": { "calories": "191 kcal", "carbs": "4g", "protein": "4g", "fat": "19g" },
+        "clue2": "Delicate nuts used in Mediterranean cuisine",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Small, elongated, and soft-textured",
+        "clue5": "Main ingredient in traditional pesto"
+    },
+    {
+        "name": "coconut",
+        "clue1": { "calories": "354 kcal", "carbs": "15g", "protein": "3g", "fat": "33g" },
+        "clue2": "High in saturated fat and fiber",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Tropical fruit with a hard shell and white flesh",
+        "clue5": "Used in flakes, milk, oil, and desserts"
+    },
+    {
+        "name": "tahini",
+        "clue1": { "calories": "89 kcal", "carbs": "3g", "protein": "2.5g", "fat": "8g" },
+        "clue2": "Paste made from ground sesame seeds",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Thick and creamy with a nutty taste",
+        "clue5": "Used in hummus and Middle Eastern dishes"
+    },
+    {
+        "name": "crisps",
+        "clue1": { "calories": "152 kcal", "carbs": "15g", "protein": "2g", "fat": "9g" },
+        "clue2": "Thin slices of potato fried or baked",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Crispy and salty, often sold in bags",
+        "clue5": "Popular with sandwiches and lunchboxes"
+    },
+    {
+        "name": "popcorn",
+        "clue1": { "calories": "106 kcal", "carbs": "22g", "protein": "3g", "fat": "1g" },
+        "clue2": "Whole grain snack high in fiber",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Light and fluffy when popped",
+        "clue5": "Commonly eaten at the cinema"
+    },
+    {
+        "name": "pretzels",
+        "clue1": { "calories": "108 kcal", "carbs": "22g", "protein": "2.5g", "fat": "1g" },
+        "clue2": "Low-fat baked snack with a salty taste",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Twisted shape with a golden crust",
+        "clue5": "Often dipped in mustard or cheese sauce"
+    },
+    {
+        "name": "chocolate",
+        "clue1": { "calories": "210 kcal", "carbs": "25g", "protein": "2g", "fat": "13g" },
+        "clue2": "Sweet treat made from cocoa beans",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Comes in milk, dark, and white varieties",
+        "clue5": "Often given as a gift or indulgent snack"
+    },
+    {
+        "name": "sweets",
+        "clue1": { "calories": "150 kcal", "carbs": "38g", "protein": "0g", "fat": "0g" },
+        "clue2": "Sugary treats in many shapes and flavors",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Chewy, hard, or gummy textures",
+        "clue5": "Often found in pick-and-mix selections"
+    },
+    {
+        "name": "cookies",
+        "clue1": { "calories": "160 kcal", "carbs": "22g", "protein": "2g", "fat": "8g" },
+        "clue2": "Sweet baked snacks with crunchy or chewy texture",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Often contains chocolate chips or nuts",
+        "clue5": "Commonly enjoyed with milk"
+    },
+    {
+        "name": "cake",
+        "clue1": { "calories": "250 kcal", "carbs": "30g", "protein": "3g", "fat": "12g" },
+        "clue2": "Baked dessert often served at celebrations",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Soft, sweet, and often frosted",
+        "clue5": "Classic for birthdays and parties"
+    },
+    {
+        "name": "brownie",
+        "clue1": { "calories": "230 kcal", "carbs": "26g", "protein": "3g", "fat": "13g" },
+        "clue2": "Dense chocolate baked treat",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Often fudgy or cakey with a cracked top",
+        "clue5": "Popular dessert bar, sometimes with nuts"
+    },
+    {
+        "name": "ice lolly",
+        "clue1": { "calories": "60 kcal", "carbs": "15g", "protein": "0g", "fat": "0g" },
+        "clue2": "Frozen flavored water on a stick",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Colorful and refreshing, melts quickly",
+        "clue5": "Common summer treat for kids"
+    },
+    {
+        "name": "jerky",
+        "clue1": { "calories": "116 kcal", "carbs": "3g", "protein": "9g", "fat": "7g" },
+        "clue2": "Dried, seasoned meat snack",
+        "clue3": "Belongs to the Protein & Nuts category",
+        "clue4": "Chewy texture, salty and savory",
+        "clue5": "Often made from beef and eaten on the go"
+    },
+    {
+        "name": "doughnut",
+        "clue1": { "calories": "260 kcal", "carbs": "31g", "protein": "3g", "fat": "14g" },
+        "clue2": "Deep-fried sweet dough ring",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Glazed, iced, or filled with jam or cream",
+        "clue5": "Popular in coffee shops and bakeries"
+    },
+    {
+        "name": "marshmallows",
+        "clue1": { "calories": "90 kcal", "carbs": "23g", "protein": "1g", "fat": "0g" },
+        "clue2": "Light, fluffy confections made from sugar",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Often toasted or added to hot chocolate",
+        "clue5": "Used in s'mores and Rice Krispies treats"
+    },
+    {
+        "name": "rice cakes",
+        "clue1": { "calories": "35 kcal", "carbs": "7g", "protein": "0.7g", "fat": "0.3g" },
+        "clue2": "Light, crispy snack made from puffed rice",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Plain or flavored, low in calories",
+        "clue5": "Often used as a base for spreads or toppings"
+    },
+    {
+        "name": "chewing gum",
+        "clue1": { "calories": "5 kcal", "carbs": "1g", "protein": "0g", "fat": "0g" },
+        "clue2": "Sweetened rubbery substance for chewing",
+        "clue3": "Belongs to the Snacks & Treats category",
+        "clue4": "Comes in minty or fruity flavors",
+        "clue5": "Used to freshen breath"
+    },
+    {
+        "name": "ketchup",
+        "clue1": { "calories": "20 kcal", "carbs": "5g", "protein": "0g", "fat": "0g" },
+        "clue2": "Sweet and tangy tomato-based sauce",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Bright red and smooth in texture",
+        "clue5": "Commonly used with chips and burgers"
+    },
+    {
+        "name": "mustard",
+        "clue1": { "calories": "5 kcal", "carbs": "0.3g", "protein": "0.3g", "fat": "0.3g" },
+        "clue2": "Tangy, slightly spicy yellow condiment",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Made from ground mustard seeds",
+        "clue5": "Often paired with hot dogs and sandwiches"
+    },
+    {
+        "name": "mayonnaise",
+        "clue1": { "calories": "94 kcal", "carbs": "0.1g", "protein": "0g", "fat": "10g" },
+        "clue2": "Rich and creamy emulsion of oil and egg",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "White or off-white spread",
+        "clue5": "Used in sandwiches, salads, and dressings"
+    },
+    {
+        "name": "hot sauce",
+        "clue1": { "calories": "0–5 kcal", "carbs": "0–1g", "protein": "0g", "fat": "0g" },
+        "clue2": "Spicy condiment made from chili peppers",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Red or orange and vinegary",
+        "clue5": "Adds heat to dishes like wings and tacos"
+    },
+    {
+        "name": "soy sauce",
+        "clue1": { "calories": "10 kcal", "carbs": "1g", "protein": "1g", "fat": "0g" },
+        "clue2": "Salty, fermented sauce made from soybeans",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Dark brown liquid with umami flavor",
+        "clue5": "Common in Asian cooking and stir-fries"
+    },
+    {
+        "name": "barbeque sauce",
+        "clue1": { "calories": "29 kcal", "carbs": "7g", "protein": "0g", "fat": "0g" },
+        "clue2": "Sweet and smoky sauce for grilled meats",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Thick, dark reddish-brown glaze",
+        "clue5": "Often used on ribs, burgers, and pulled pork"
+    },
+    {
+        "name": "vinegar",
+        "clue1": { "calories": "3 kcal", "carbs": "0.1g", "protein": "0g", "fat": "0g" },
+        "clue2": "Sour liquid made by fermenting alcohol",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Clear or brown, very acidic taste",
+        "clue5": "Used in dressings, marinades, and pickling"
+    },
+    {
+        "name": "olive oil",
+        "clue1": { "calories": "119 kcal", "carbs": "0g", "protein": "0g", "fat": "14g" },
+        "clue2": "Healthy fat rich in antioxidants",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Golden-green oil pressed from olives",
+        "clue5": "Used in cooking and salad dressings"
+    },
+    {
+        "name": "honey",
+        "clue1": { "calories": "64 kcal", "carbs": "17g", "protein": "0.1g", "fat": "0g" },
+        "clue2": "Natural sweetener made by bees",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Thick golden liquid with floral notes",
+        "clue5": "Used in tea, baking, and sauces"
+    },
+    {
+        "name": "jam",
+        "clue1": { "calories": "56 kcal", "carbs": "14g", "protein": "0g", "fat": "0g" },
+        "clue2": "Sweet spread made from fruit and sugar",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Thick and fruity, often with chunks",
+        "clue5": "Common on toast or in pastries"
+    },
+    {
+        "name": "salsa",
+        "clue1": { "calories": "10 kcal", "carbs": "2g", "protein": "0g", "fat": "0g" },
+        "clue2": "Chunky sauce made from tomatoes, onions, and chili",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Usually red and slightly spicy",
+        "clue5": "Popular with tortilla chips and Mexican food"
+    },
+    {
+        "name": "pesto",
+        "clue1": { "calories": "80 kcal", "carbs": "1g", "protein": "2g", "fat": "8g" },
+        "clue2": "Green sauce made from basil, pine nuts, and cheese",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Thick, fragrant, and oily",
+        "clue5": "Often used on pasta or in sandwiches"
+    },
+    {
+        "name": "gravy",
+        "clue1": { "calories": "30 kcal", "carbs": "3g", "protein": "1g", "fat": "2g" },
+        "clue2": "Savory sauce made from meat drippings or stock",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Brown and poured over roasts or potatoes",
+        "clue5": "Traditional with Sunday roasts and Christmas dinners"
+    },
+    {
+        "name": "teriyaki sauce",
+        "clue1": { "calories": "16 kcal", "carbs": "3g", "protein": "1g", "fat": "0g" },
+        "clue2": "Sweet and savory Japanese-style glaze",
+        "clue3": "Belongs to the Condiments category",
+        "clue4": "Dark and sticky, made with soy and sugar",
+        "clue5": "Used with stir-fries, chicken, and tofu"
     }
 ]

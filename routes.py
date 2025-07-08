@@ -3,6 +3,10 @@ from flask import redirect, url_for
 import json
 import random
 from datetime import date
+from models import User
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask_login import login_user
+from main import db, login_manager
 
 
 with open("data/foods.json", "r") as file:
@@ -21,6 +25,10 @@ def random_food():
 
 
 def init_routes(app):
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(int(user_id))
+
     @app.route("/", methods=["GET", "POST"])
     def start_game():
         today = date.today()
@@ -150,6 +158,11 @@ def init_routes(app):
             guesses=reversed(guesses),
         )
 
+    @app.route("/skip", methods=["POST"])
+    def skip():
+        session["attempts"] += 1
+        return redirect(url_for("start_game"))
+
     @app.route("/correct", methods=["GET"])
     def correct_guess():
         answer = session.get("answer")
@@ -168,7 +181,59 @@ def init_routes(app):
         session["game_completed"] = True
         session["game_won"] = False
 
-        render_template("incorrect.html", answer=answer, attempts=attempts)
+        return render_template("incorrect.html", answer=answer, attempts=attempts)
+
+    @app.route("/signup", methods=["POST", "GET"])
+    def signup():
+        if request.method == "POST":
+            email = request.form.get("email")
+            username = request.form.get("username")
+            password = request.form.get("password")
+            confirm_password = request.form.get("confirm_password")
+
+            if User.query.filter_by(email=email).first():
+                flash("Email already exists")
+                return render_template("signup.html")
+
+            if User.query.filter_by(username=username).first():
+                flash("Username already exists")
+                return render_template("signup.html")
+
+            if len(password) < 8:
+                flash("Password must be at least 8 characters long")
+                return render_template("signup.html")
+
+            if password != confirm_password:
+                flash("Passwords do not match")
+                return render_template("signup.html")
+
+            new_user = User(
+                email=email,
+                username=username,
+                password=generate_password_hash(password),
+            )
+            db.session.add(new_user)
+            db.session.commit()
+            flash("Account created successfully")
+            login_user(new_user)
+            return redirect(url_for("start_game"))
+
+        return render_template("signup.html")
+
+    @app.route("/login", methods=["POST", "GET"])
+    def login():
+        if request.method == "POST":
+            email = request.form.get("email")
+            password = request.form.get("password")
+            user = User.query.filter_by(email=email).first()
+            if user and check_password_hash(user.password, password):
+                login_user(user)
+                return redirect(url_for("start_game"))
+            else:
+                flash("Invalid email or password")
+                return render_template("login.html")
+
+        return render_template("login.html")
 
     @app.route("/reset")
     def reset():

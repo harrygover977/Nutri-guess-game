@@ -29,8 +29,12 @@
             {% endif %}
         {% endwith %}
         
-
-        
+    <div class="skipButton">
+        <form action="{{ url_for('skip') }}" method="POST">
+            <button type="submit">Skip +1</button>
+        </form>
+    </div>
+    
     <div class="clueContainer">
         <div class="clues">
         <div id="clue1">
